@@ -1,0 +1,96 @@
+.three{
+    text-align: center;
+    min-height: 200px;
+    margin: $center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: $site-width;
+    max-width: 50%;
+    margin-top: -40px;
+    
+
+    .pics1{
+        width:236px;
+        height: 304px;
+        background-image: url(../images/tour-012.jpg);
+        position: relative;
+        
+    }
+
+    .pics2{
+        width:236px;
+        height: 304px;
+        background-image: url(../images/tour-022.jpg);
+        position: relative;
+    }
+
+    .pics3{
+        width:236px;
+        height: 304px;
+        background-image: url(../images/tour-032.jpg);
+        position: relative;
+    }
+
+
+    .pictext{
+        color: $site-white;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Proxima Nova ScOsf ExCn Rg';
+    }
+
+    .pictext1{
+        color: $site-white;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Proxima Nova ScOsf ExCn Rg';
+    }
+    
+    .button{
+        width: 133px;
+        position: absolute;
+        border: none;
+        color: $site-white;
+        padding: 12px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 17px;
+        margin-top: 15px;
+        margin-left: -35px;
+        cursor: pointer;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+      .buttonpic1{
+          background-color: $site-blue;
+          border-radius: 25px;
+          
+        }
+}
+
+@media screen and (max-width: 1420px) {
+    .three{
+        flex-direction: column;
+        margin-top: 0px;
+
+        .pics1{
+            margin-top: 10px;
+        }
+
+        .pics2{
+            margin-top: 10px;
+        }
+
+        .pics3{
+            margin-top: 10px;
+        }
+    }
+}
