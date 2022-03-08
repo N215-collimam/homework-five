@@ -1,17 +1,17 @@
-# homework-four
-## This is an example of trying to change a website to be responsive to the media it is being shown in.
+# homework-five
+## This is an example of taking the second page of the travel fly website, the about page, and making it responsive as well
 
 
 Our objectives for this particular webpage were to:
 
-Teach you how to make your site responsive
+Practice how to make your site responsive
+
+Set up a base that we can use for our future pages to keep them looking connected with the header and footer
 
 Use media queries
 
 Use percentages
 
-Start focusing on mobile
+I made this webpage using the format for the header and footer that I created in the last project. I then removed all of the web page's content and added in the new content that is on the about page. After that, I had to tweak some of the values for widths to fit the webpage correctly, and then I finally went on to make media queries and percentages to make all of the new page's content be adaptive to the size of the page. 
 
-I made changes to the webpage's code that I set up in the last assignment were I took a lot of the widths and heights I had set to a concrete number and changed them to be a min and max width or a percentage. I also set up media queries for the aspects of the website that needed to stack and chnage as the webpage got smaller for mobile views. 
-
-https://in-info-web4.informatics.iupui.edu/~collimam/homework-four/
+https://in-info-web4.informatics.iupui.edu/~collimam/homework-five/
