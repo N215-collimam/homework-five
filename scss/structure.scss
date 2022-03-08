@@ -16,4 +16,10 @@ h1, h2, h3, h4, h5, h6, p {
 #app{
     max-width: $content-width;
     margin: 0 auto;
-  }
+}
+
+@font-face{
+  font-family: 'proxima';
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+  
+}
